@@ -20,6 +20,7 @@ class AppRouter extends React.Component {
 
   }
   render () {
+    console.log('app router');
     return (
       <BrowserRouter>
         <Switch>
